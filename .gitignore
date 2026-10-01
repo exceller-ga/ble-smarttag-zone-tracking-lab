@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Android / IDE
+.gradle/
+.idea/
+*.iml
+local.properties
+build/
+app/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime / local-only logs
+*.log
+!logs/sample-runtime.log
+
+# Secrets
+.env
+*.key
+*.pem
+*.before-*

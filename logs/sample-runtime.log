@@ -1,0 +1,16 @@
+# Selected runtime evidence from the lab
+[2026-10-01 02:53:25] [GATEWAY_ONLINE] ZONE-A | first POST received
+[2026-10-01 02:53:35] [HEARTBEAT] ZONE-A | ONLINE | last_post=1.4s ago | tags=0
+
+[2026-10-01 03:01:17] [HEARTBEAT] ZONE-A | ONLINE | last_post=0.2s ago | tags=1
+[2026-10-01 03:01:18] [172.19.0.1] [ZONE_CHANGE] TEIA-TAG-01 | ZONE-C -> ZONE-A, RSSI=-41
+
+[2026-10-01 03:02:54] [172.19.0.1] [ZONE_CHANGE] TEIA-TAG-01 | ZONE-A -> ZONE-C, RSSI=-48
+[2026-10-01 03:03:25] [172.19.0.1] [ZONE_CHANGE] TEIA-TAG-01 | ZONE-C -> ZONE-A, RSSI=-83
+
+[2026-10-01 03:06:22] [172.19.0.1] [LOST] TEIA-TAG-01 | Signal lost from ZONE-A
+[2026-10-01 03:06:28] [HEARTBEAT] ZONE-A | ONLINE | last_post=0.9s ago | tags=0
+
+[2026-10-01 03:09:24] [172.19.0.1] [REAPPEARED] TEIA-TAG-01 | Signal restored at ZONE-A, RSSI=-50
+[2026-10-01 03:09:30] [HEARTBEAT] ZONE-A | ONLINE | last_post=0.9s ago | tags=1
+[2026-10-01 03:09:38] [HEARTBEAT] ZONE-C | ONLINE | last_post=0.5s ago | tags=1

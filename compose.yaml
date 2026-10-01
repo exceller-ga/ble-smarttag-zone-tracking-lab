@@ -1,0 +1,16 @@
+services:
+
+  ble-gateway-api:
+
+    build:
+      context: ./app
+
+    container_name: ble-gateway-api
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - ./data:/data
+
+    restart: unless-stopped

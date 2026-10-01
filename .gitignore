@@ -25,3 +25,10 @@ Thumbs.db
 *.key
 *.pem
 *.before-*
+
+# Android Studio
+.gradle/
+.idea/
+**/build/
+local.properties
+*.iml

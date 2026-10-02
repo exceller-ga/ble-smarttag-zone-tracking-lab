@@ -1,5 +1,7 @@
 # BLE Smart Tag Gateway & Zone Tracking Lab
 
+![BLE Smart Tag Lab Overview](assets/ble-smarttag-lab-overview.png)
+
 A hands-on BLE Smart Tag tracking lab using Android gateway devices and a FastAPI backend.
 
 The lab demonstrates tag detection, multi-gateway observations, zone transition tracking, LOST/REAPPEARED detection, gateway health monitoring, and runtime troubleshooting.

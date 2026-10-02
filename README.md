@@ -129,3 +129,10 @@ Android / Kotlin · Bluetooth Low Energy · FastAPI · Python · Docker · HTTP 
 ## Scope
 
 Lab environment only. No production data is included.
+
+## Setup Guides
+
+- [BLE Advertiser Setup with nRF Connect](docs/advertiser-setup.md)
+- [Multi-Gateway Setup](docs/multi-gateway-setup.md)
+- [Test Results](docs/test-results.md)
+- [Known Limitations](docs/known-limitations.md)
